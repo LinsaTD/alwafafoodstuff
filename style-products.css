@@ -1,0 +1,260 @@
+
+body {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-color: #7c9f87;
+  font-family: sans-serif;
+  }
+  
+  #header-section {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  }
+  
+  .logo {
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: #f9f9f9;
+  }
+  
+  header nav {
+  padding: 20px;
+  background: #7c9f87;
+  color: white;
+  text-align: center;
+  }
+  
+  header .navbar-light .navbar-nav .nav-link {
+  color: white;
+  }
+  
+  header .navbar-light .navbar-nav .nav-item.active .nav-link,
+  header .navbar-light .navbar-nav .nav-item:hover .nav-link {
+  color: white;
+  position: relative;
+  z-index: 1;
+  }
+  
+  header nav.navbar {
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+  text-align: center;
+  }
+  
+  header nav.navbar .nav-item {
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  }
+  
+  header nav.navbar .nav-item::after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 100%;
+  background: #50874a;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  bottom: 0;
+  left: 0;
+  }
+  
+  header nav.navbar .nav-item:hover::after {
+  height: 100%;
+  }
+  
+  header .bg-body-tertiary {
+  padding-top: 120px !important;
+  }
+  
+  header .navbar-collapse {
+  justify-content: center;
+  padding-right: 0;
+  }
+  
+  .main {
+  /*max-width: 80%;*/
+  margin: 70px 10px 10px 10px;
+  padding: 20px;
+  background-color: #d3ded6;
+  border: 1px solid #ddd;
+  text-align: center;
+
+  }
+  
+  .title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  top: 20%;
+  }
+  
+  .subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  .veg-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  }
+  
+  .veg-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  }
+  
+  .fruit-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  }
+  
+  .fruit-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  }
+  
+  .veg-gallery-container img:hover,
+  .fruit-gallery-container img:hover {
+  transform: scale(1.2);
+  transition: all .3s;
+  }
+  
+  .vegetables,
+  .fruits {
+  padding: 40px 0;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  h4.subtitle {
+  margin-bottom: 30px;
+  }
+  .footer-section {
+    background-color: #7c9f87;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-section h3 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #ccc;
+  }  
+  .copyright {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    clear: both;
+  }
+  /* Mobile devices (max-width: 768px) */
+  
+  @media only screen and (max-width: 768px) {
+  .logo {
+  height: 60px;
+  width: 60px;
+  }
+  header nav {
+  padding: 10px;
+  }
+  header nav.navbar {
+  padding: 0;
+  }
+  .main {
+  margin-top: 10%;
+  }
+  .title {
+  font-size: 24px;
+  margin-left: 0;
+  }
+  .veg-gallery-container,
+  .fruit-gallery-container {
+  grid-template-columns: repeat(2, 1fr);
+  }
+  .veg-image,
+  .fruit-image {
+  height: 120px;
+  }
+  .vegetables,
+  .fruits {
+  padding: 20px 0;
+  width: 90%;
+  }
+  }
+  
+  /* Tablets (min-width: 769px) and (max-width: 1024px) */
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+  height: 70px;
+  width: 70px;
+  }
+  header nav {
+  padding: 15px;
+  }
+  .main {
+  margin-top: 8%;
+  }
+  .title {
+  font-size: 28px;
+  margin-left: 0;
+  }
+  .veg-gallery-container,
+  .fruit-gallery-container {
+  grid-template-columns: repeat(3, 1fr);
+  }
+  .veg-image,
+  .fruit-image {
+  height: 140px;
+  }
+  .vegetables,
+  .fruits {
+  padding: 30px 0;
+  width: 85%;
+  }
+  }
+  /* Large desktops (min-width: 1025px) and (max-width: 1280px) */
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+      .logo {
+          height: 80px;
+          }
+  }
+  
