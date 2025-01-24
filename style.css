@@ -395,6 +395,7 @@ section {
     padding: 0;
     position: fixed;
     width: 100%;
+    z-index: 1;
   }
   header nav.navbar .nav-item {
     padding: 20px;
@@ -410,6 +411,8 @@ section {
     transition: height 0.3s ease;
     bottom: 0;
     left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
   header nav.navbar .nav-item:hover::after {
     height: 100%;
@@ -439,3 +442,12 @@ section {
   }
   
   
+#products .show-more {
+  text-align: center;
+  margin-top: 30px;
+
+}
+#products .show-more a {
+  color: #487c15;
+  font-size: 18px;
+}
