@@ -81,7 +81,7 @@ body {
   .main {
   /*max-width: 80%;*/
   margin: 70px 10px 10px 10px;
-  padding: 20px;
+  /* padding: 20px; */
   background-color: #d3ded6;
   border: 1px solid #ddd;
   text-align: center;
@@ -151,7 +151,7 @@ body {
   .footer-section {
     background-color: #7c9f87;
     color: #fff;
-    padding: 50px 0;
+    padding: 50px 0 0;
   }
   
   .footer-section h3 {
@@ -198,7 +198,10 @@ body {
   padding: 0;
   }
   .main {
-  margin-top: 10%;
+  margin-top: 18%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
   }
   .title {
   font-size: 24px;
@@ -231,6 +234,9 @@ body {
   }
   .main {
   margin-top: 8%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
   }
   .title {
   font-size: 28px;
