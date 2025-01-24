@@ -43,6 +43,7 @@ body, html {
     font-size: 50px;
 }
 #about{
+  background-color: #d3ded6;
    /*background-color:rgb(242 247 199);
    background-image: url();*/
   }
@@ -93,7 +94,7 @@ body, html {
     height: 20px;
   }
   #products{
-      background-color:#d3ded6;;
+    background-color:#7c9f87;
   }
   .products-section{
     width: 100%;
@@ -230,7 +231,7 @@ section {
   }
   
 #core_values{
-    background-color:#d3ded6;;
+  background-color:#7c9f87;
     display: flex;
     /* padding-top: 20px; */
     /* padding-bottom: 20px; */
@@ -300,7 +301,7 @@ section {
   }
   
   #connect{
-    background-color:#7c9f87;
+    background-color: #d3ded6;
   }
   .location{
     width: 50px;
@@ -424,7 +425,7 @@ section {
     justify-content: center;
   }
   #vision_mission {
-    background: #7c9f87;
+    background-color: #d3ded6;
   }
 
   .footer-section {
