@@ -427,6 +427,9 @@ section {
   #vision_mission {
     background-color: #d3ded6;
   }
+.logo img{
+   width:60px;
+}
 
   .footer-section {
     background-color: #333;
