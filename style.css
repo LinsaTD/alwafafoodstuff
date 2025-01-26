@@ -6,6 +6,9 @@ body, html {
     margin: 0;
     overflow-x: hidden;
   }
+ :target {
+  scroll-margin-top: 60px; 
+ }
 .header-background {
     position: relative;
     min-height: 100vh;
@@ -40,7 +43,7 @@ body, html {
   }
 .title{ 
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 60px;
 }
 #about{
   background-color: #d3ded6;
@@ -196,7 +199,6 @@ section {
   }
   
   .title {
-    font-size: 40pxpx;
     font-weight: bold;
     margin-bottom: 10px;
   }
@@ -348,7 +350,7 @@ section {
   }
   h2.section-title {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
   }
   h2.content-heading {
