@@ -433,19 +433,38 @@ section {
    width:60px;
 }
 
-  .footer-section {
-    background-color: #333;
-    color: #fff;
-    padding: 30px 0 0;
-  }
+ .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  clear: both;
+  background-color: #444;
+  color: #fff;
+  clear: both;
+}
+
+.copy {
+  width: 500px;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.docs-container {
+  margin-left: auto;
+  width: 200px;
+}
+
+.docs-container a {
+  margin-right: 20px;
+  color: #fff;
   
-  .copyright {
-    background-color: #444;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    clear: both;
-  }
+}
+
+.docs-container a:last-child {
+  margin-right: 0;
+}
+ 
   
   
 #products .show-more {
